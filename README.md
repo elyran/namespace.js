@@ -6,7 +6,6 @@ Small yet effective Javascript namespace management
 Compatible with **browser** and **server (node.js)**
 
 ## Quick start/example
-
 ```javascript
 namespace.js("com.example.portal");
 console.log(com.example.portal);
@@ -17,12 +16,20 @@ console.log(com.example.portal.constants.CONSTANT_VALUE);
 
 Check `test.js` for more
 
-## Install & Test
+## Install @ Browser
+1. Copy `namespace.js`
+2. Include in your html `<script src="namespace.js"></script>`
 
-1. Copy the files
-1. Run test..
-1. For browser: Run `test.html` and check the console
-1. For server: Run `node test.js`
+## Install @ Server
+1. Copy `namespace.js`
+2. Include in your code `require("./namespace.js");`
+
+## Test
+* For browser: Run `test.html` and check the console
+* For server: Run `node test.js` and watch the output
 
 ## Notes
 In server mode `namespace.js` will register itself under `global` scope so you may use it globally without any hassle.
+
+## Roadmap
+* `npm` package
